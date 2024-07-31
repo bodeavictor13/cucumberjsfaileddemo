@@ -29,6 +29,17 @@ Feature: Some terse yet descriptive text of what is desired like bla bla
     Then some testable outcome is achieved
     * something else we can check happens too
     But I don't see something else
+  
+  @Quick @nightly
+  Example: Some another scenario 2 - somthing new
+  scenario 2 description
+    Given some precondition
+    And some other precondition with doc string new
+    When some action by the actor
+    And yet another action
+    Then some testable outcome is achieved
+    * something else we can check happens too
+    But I don't see something else 
 
   Scenario Outline: feeding a cow <name> yum yum yum
   scenario outline
